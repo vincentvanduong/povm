@@ -65,6 +65,10 @@
 = Results
 
 #include("sec_results.typ")
-  
+
+= Learning
+
+#include("sec_learning.typ")
+
 #pagebreak()
 #bibliography("bibliography.bib")

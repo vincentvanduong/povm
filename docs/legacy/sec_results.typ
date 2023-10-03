@@ -32,25 +32,36 @@ These are regions where the cost (or loss) function can be reduced via a judicio
 The regions where there is a quantum advantage take place when the evolution time $t$ and Ising strength $J$ take particular values -- one should tune $t$ and $J$ to guarantee optimal performance. 
 
 
-== Numerics
-We studied the fully connected transverse-field Ising model.
-The initial state consisted of all $|-z angle.r$ states. 
-The numerics were performed with 2, 3, and 4 qubits.
-All simulations show that a reduction of $0.014 - 0.040$ on the base value of $0.30$.
-Achieving optimality requires a time $t$ and Ising interaction $J$ that is not too large.
-There is a strip of constant $J$ that makes optimality robust in time.
-This is reminiscent of measuring the system near criticality as mentioned in $$
-
+== $N = 2$
+This is a two-body system. The system is initiated with all spins in $|-z angle.r$. The number of POVM is 
 #figure(
     grid(
         columns: 2,
         gutter: 2mm,
         image("two-body2.png", width: 100%),
         image("two-body3.png", width: 100%),
+    ),
+    caption: "some caption"
+)
+== Three spins
+In the
+#figure(
+    grid(
+        columns: 2,
+        gutter: 2mm,
         image("three-body2.png", width: 100%),
         image("three-body3.png", width: 100%),
+    ),
+    caption: "some caption"
+)
+== Four spins
+In the
+#figure(
+    grid(
+        columns: 2,
+        gutter: 2mm,
         image("four-body2.png", width: 100%),
         image("four-body3.png", width: 100%),
     ),
-    caption: "The cost landscape for two, three, and four qubit sensors. Reductions are only obtained for certain parameters of $J$ and $t$."
+    caption: "some caption"
 )

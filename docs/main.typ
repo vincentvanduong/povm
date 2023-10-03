@@ -18,57 +18,23 @@
 
 #include("sec_intro.typ")
 
-= Quantum Fisher Information
-  - Introduce the Classical Fisher Information Matrix
-  - Introduce the Cramer-Rao Bound 
-  - Introduce the Quantum Fisher Information (QFI)
-  - Derive the Quantum Cramer-Rao bound
-  - Explain why QFI is impractical: it shows a bound but fails to provide a parameter estimate and fails to provide the optimal measurement.
+#include("sec_optimal_design.typ")
 
-= Quantum Channels and the Positive Operator-Valued Measure (POVM)
+= Optimisation Framework
 
+#include("sec_optimisation.typ")
 
-
-== Positive operator-valued measure (POVM)
-
-#include("sec_povm.typ")
-
-== Completely Bounded Trace Norm
-
-#include("sec_norm.typ")
-
-
-= Quantum Parameter Estimation
-
-#include("sec_quantumparameterestimation.typ")
-
-== The Spin-1/2 system
-
-== Uncertainty and optimisation
-
-== Optimisation (Dual Problem)
-
-== Two spin-1/2 system
-
-== Spin-1/2 Tomography
-
-= Quantum Control
-  - Introduce the efficiency advantage of designing measurement devices that use the Markov Decision Process Theory
-  - Find a system that is exactly solvable using the theory. Maybe this is two qubits in a Magnetic Field?
-
-#include("reinforcement.typ")
-
-= Numerical strategy
-
-#include("sec_numerical.typ")
-
-= Results
+= Numerical Results
 
 #include("sec_results.typ")
 
-= Learning
+= Comments
 
-#include("sec_learning.typ")
+#include("sec_comments.typ")
+
+= Conclusion
+
+#include("sec_conclusion.typ")
 
 #pagebreak()
 #bibliography("bibliography.bib")
